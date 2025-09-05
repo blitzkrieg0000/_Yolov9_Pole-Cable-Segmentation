@@ -1,0 +1,53 @@
+metrics for class 0 - void =>
+            Recall: 0.0615,
+            Specificity: 0.9884,
+            Precision: 0.1481,
+            all_samples: 2046,
+,            actual_samples: 65,
+,            predicted_samples: 27,
+        
+
+metrics for class 1 - tower_tucohy =>
+            Recall: 0.7917,
+            Specificity: 0.9951,
+            Precision: 0.6552,
+            all_samples: 2046,
+,            actual_samples: 24,
+,            predicted_samples: 29,
+        
+
+metrics for class 2 - tower_lattice =>
+            Recall: 0.9016,
+            Specificity: 0.9924,
+            Precision: 0.7857,
+            all_samples: 2046,
+,            actual_samples: 61,
+,            predicted_samples: 70,
+        
+
+metrics for class 3 - cable =>
+            Recall: 0.659,
+            Specificity: 0.3891,
+            Precision: 0.7373,
+            all_samples: 2046,
+,            actual_samples: 1478,
+,            predicted_samples: 1321,
+        
+
+metrics for class 4 - tower_wooden =>
+            Recall: 0.7436,
+            Specificity: 0.9925,
+            Precision: 0.6591,
+            all_samples: 2046,
+,            actual_samples: 39,
+,            predicted_samples: 44,
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 11/11 [00:03<00:00,  3.28it/s
+                   all        167       1667      0.733      0.638      0.672      0.578      0.671      0.618      0.638      0.412
+                  void         19         65      0.481     0.0923      0.121     0.0662      0.242     0.0462     0.0307    0.00577
+          tower_tucohy         19         24      0.744      0.833      0.809      0.782      0.745      0.833      0.809      0.556
+         tower_lattice         45         61      0.819       0.89      0.934      0.862      0.819       0.89      0.926      0.751
+                 cable        165       1478      0.822      0.606      0.697      0.589      0.753      0.553       0.61      0.327
+          tower_wooden         38         39      0.797      0.769      0.799      0.591      0.798      0.769      0.814      0.421
+Speed: 0.3ms preprocess, 6.1ms inference, 0.0ms loss, 1.4ms postprocess per image
